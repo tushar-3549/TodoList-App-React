@@ -1,0 +1,39 @@
+.todo {
+    background-color: #1b1717; 
+    margin: 10px; /* Add some margin around the todo */
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.todo:hover {
+    background-color: #2e1e1e; 
+}
+
+.todo input[type='text'] {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.todo .btn {
+    border: none;
+    background-color: transparent;
+    color: #e61d1d; 
+    cursor: pointer;
+    margin-left: 10px; /* Add some space between buttons */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.todo .btn:hover {
+    color: #6c0dd3; /* Darken the color on hover */
+}
